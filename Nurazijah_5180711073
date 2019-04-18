@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int a,b,h;
+void input()
+{
+    cout<<"Masukkan Nilai a : ";cin>>a;
+    cout<<"Masukkan Nilai b : ";cin>>b;
+}
+int hitung(int a, int b)
+{
+    h=a%b;
+    cout<<"Hasil            : " <<h;
+}
+main()
+{
+    cout<<"\t===Menghitung Modulus==="<<endl;
+    input();
+    hitung(a,b);
+}
